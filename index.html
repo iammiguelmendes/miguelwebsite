@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio Website</title>
+        <link rel="shortcut icon" href="icon.png">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+</head>
+
+<body>
+    <script src="script.js"></script>
+        <nav class="navbar">
+            <div class="max-width">
+                <div class="logo"><p>M<span>M</span></p></div>
+                <ul class="menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#knowledge">Knowledge</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                </ul>
+            </div>
+        </nav>
+
+<!-- home section -->
+
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class:"darken"></div>
+            <div class="home-content">
+                <div class="text-1">Hello, my name is </div>
+                <div class="text-2"><span>M</span>iguel <span>M</span>endes <a href="https://www.linkedin.com/in/miguel-mendes-8270461b6/" 
+                     target="_blank"><img src="linkedin.png"></a></div> 
+                <div class="text-3">and I'm a Junior <span class="typing"></span></div>
+            </div>
+        </div>
+    </section>
+
+<!-- about section -->
+   <section class="about">
+      <a id="about"></a>
+        <div class="max-width">
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+                <div class="column left"><img src="miguel.jpg" alt="Myself"></div>
+                <div class="column right">
+                    <div class="text">Hello, I'm Miguel and I'm a Junior <span class="typing-2"></span></div>
+                    <p>In this section I want to talk about myself as a person, so that you can know more about me, and see my personality, which I believe to be very important for a recruiter/company.</p>
+                    <h3>What I can do</h2>
+                    <p>As a Junior Web/Front-End Developer, with knowledge in several areas, I can provide, new ways of thinking, notice small bugs/functionality that may be improved, that others may not notice since I want to learn and check everything, with a very strong growth potential. </span>I am new, which means I can bring <span>new value to the team</span>!</p>
+                    <h3>My determination</h3>
+                    <p>My portfolio is simple because it was  made by myself, without any help (except for our friend StackOverflow) to show that I am determined to learn, to improve, and to bring value. If I did this on my own, <span>imagine if I had a team</span>!</p>
+                    <h3>My mindset</h3>
+                    <p>I play a competitive videogame, which is League of Legends, where you have hundreds of characters to play with and I wanted to be the best with one specific character. As you read this, after years, I am the rank 1 player in Portugal that uses one specific character, and have overall ranking of a professional player. <span>I never give up, ever</span>!</p>
+                </div> 
+            </div>
+        </div>
+    </section>
+
+<!-- knowledge section -->
+    <section class="knowledge">
+       <a id="knowledge"></a>
+        <div class="max-width">
+            <h2 class="title">Knowledge</h2>
+            <div class="knowledge-content">
+                <p>What I feel comfortable to work with</p>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>C# (in Unity3D)</li>
+                 </ul>   
+                 <p>New concepts I would like to learn</p>
+                <ul>
+                    <li>JavaScript</li>
+                    <li>APIs</li>
+                    <li>React</li>
+                 </ul>   
+                 <p>IDEs/Engines that I used so far</p>
+                <ul>
+                    <li>Visual Studio</li>
+                    <li>Android Studio</li>
+                    <li>Unity3D</li>
+                    <li>Sublime Text</li>
+                 </ul>   
+                   <p>Other software I used</p>
+                <ul>
+                    <li>JIRA</li>
+                    <li>Github</li>
+                    <li>SourceTree</li>
+                 </ul>   
+                 <p>What I can do right after joining your team</p>
+                <ul>
+                    <li>Small changes</li>
+                    <li>Check bugs</li>
+                    <li>Learn</li>
+                 </ul>  
+            </div>
+        </div>
+    </section>
+
+<!-- portfolio section -->
+    <section class="portfolio">
+      <a id="portfolio"></a>
+        <div class="max-width">
+            <h2 class="title">Portfolio</h2>
+            <div class="portfolio-content">
+                <h3>Web Development</h3>
+                <p>This website, was made by myself, to show what I can do on my own. There are more things that I know how to do, but they are at the same level as everything else in this website.
+                <br>For the typing animation I used JQuery library with a small JavaScript function. I understand certain things in JavaScript such as functions and variables due to the fact that I've worked with C#, and those concepts are shared, but the syntax and what is possible to do with JavaScript is what I need to learn more, alongside putting mobile view and API connections. 
+                <br>What I mean with these statements is that, obviously as a Junior, all I know is what I've done in this website but I know the concepts and the existence of the things I need to learn, which shows potential and dedication.</p>
+                <h3>C# Development</h3>
+                <p>I've done a mobile game, using Unity3D, for my final project in school. The game consists in an infinite run where the user has to click on the obstacles and if it fails to click on one, the game ends showing the score (time). The game has 3 dificulty levels and saves the most recent score and the highest score of each level, in a small text file (not the safest, but I had to find a way to do it).
+                <br>I wish I could have made a better design, but it was mandatory to use free sprites from the Unity store.
+                <br>Here is a short video about the overall functionality.</p>
+                <div class="video"><video width="380" height="300" controls><source src="Infinia.mp4" type="video/mp4">Your browser does not support the video tag.</video></div>
+                <h3>C# Testing</h3>
+                <p>I've done testing in Unity, which has it's own Test Runner. It has EditMode and PlayMode, but to give a simple explanation, I developed automatic tests, to test login credentials and objects collisions.
+                <br>The project was in a software company I worked with, so it is not with me, but I still have the source code in a text file, if it is relevant.</p>
+                <h3>Photoshop</h3>
+                <p>I've done some small edits in existing pictures, nothing serious, just for fun since I enjoy the design side and wanted to try some edits, and here are three of them that you can hover.</p>
+                <div class="photoshop">
+                    <img src="dog.png">
+                    <img src="model.png">
+                    <img src="lion.png">
+               </div>
+            </div>
+        </div>
+    </section>
+       <!-- footer section start -->
+        <footer>
+            <p>M<span>M</span></p>
+            <p>Created By Miguel <span>|</span> Thank you for your time and simpathy</p>
+        </footer>
+    </section>
+
+</html>

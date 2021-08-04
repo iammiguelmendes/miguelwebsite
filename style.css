@@ -1,0 +1,246 @@
+﻿html{
+    scroll-behavior: smooth;
+    font-family: Arial;
+}
+
+body{
+    margin: 0;
+}
+
+table, th, td {
+    border: 1px solid black;
+    width: 30%;
+}
+
+header,
+section,
+footer {
+    margin: 0;
+    padding: 1px; 
+}
+h3 {
+    color: white;
+}
+
+.max-width{
+    max-width: : 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+/* navigation bar styling*/
+.navbar{
+    position:  fixed;
+    width: 100%;
+    z-index: 998;
+    transition: : all 0.3 ease;
+    height: 100px; /*fixed header*/
+}
+.navbar.sticky{
+    outline:  2px solid #e65400;
+    background: black;
+}
+.navbar .max-width{
+    display: flex;
+    align-items:  center;
+    justify-content: space-between;
+}
+.navbar .logo p{
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+    text-decoration: none;
+    z-index: 999;
+}
+.navbar .logo span{
+    color: #e65400
+}
+.navbar .logocontent.editred{
+    color: red;
+}
+.navbar .menu li{
+    list-style: none;
+    display:  inline-block;
+    padding-right: 25px;
+    z-index: 999;
+}
+.navbar .menu li a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500px;
+    transition:  color 0.3s ease;
+}
+.navbar .menu li a:hover{
+    border-bottom: 5px solid white;
+    padding-bottom: 2px;
+}
+.navbar.sticky .menu li a:hover{
+    color: #ff6a00;
+}
+
+/* section  styling */
+section .title{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+}
+
+/* home section styling */
+.home{
+    display: flex;
+    background: url("bg.jpg") no-repeat center;
+    height: 100vh;
+    min-height: 500px;
+    color: white;
+    box-shadow: inset 0px 0px 400px 110px rgba(0, 0, 0, .7);
+}
+.home .max-width{
+    margin: auto 0 auto 40px;
+}
+.home .home-content .text-1{
+    font-size: 27px;
+}
+.home .home-content .text-2{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left:  -3px;
+}
+.home .home-content .text-2 img{
+    width: 30px;
+}
+.home .home-content .text-3{
+    font-size: 40px;
+    margin:  5px 0;
+}
+.home .home-content .text-2{
+    font-family: 'Dancing Script', cursive;
+}
+.home .home-content .text-2 span{
+    color: #ff6a00;
+}
+.home .home-content .text-3 span{
+    color:  #ff6a00;
+    font-weight: 500;
+}
+
+/* about section styling */
+.about{
+    color: #d1d1d1;
+    background-image: linear-gradient(black, #2b2b2b);
+    position: relative;
+    overflow: auto;
+}
+.about a{
+    position: absolute;
+    left: 0px;
+    top: -100px;/* fixed header is 100px*/
+}
+.about .about-content .text{
+    color: white;
+}
+.about .about-content p span{
+    color: #ff6a00;
+}
+.about .about-content .left img{
+    width: 30%;
+    object-fit: cover;
+    border-radius: 6px;
+    position: relative;
+    float: left;
+    margin-left: 170px;
+    border: 2px solid #ff6a00;
+}
+.about .about-content .right{
+    width: 50%;
+    float: right;
+}
+.about .about-content .right .text{
+    font-size: 25px;
+    font-weight: 600;
+}
+.about .about-content .right .text span{
+    color: #ff6a00;
+}
+.about .about-content .right p{
+    text-align: justify;
+}
+
+/* knowledge section styling */
+.knowledge{
+    position: relative;
+    background-color: #2b2b2b;
+    color: #d1d1d1;
+}
+.knowledge a{
+    position: absolute;
+    top: -100px;
+}
+.knowledge .knowledge-content p {
+    text-align: center;
+    font-weight: bold;
+}
+.knowledge .title{
+}
+.knowledge .knowledge-content ul{
+    width: 10%;
+    margin: auto;
+}
+.knowledge .knowledge-content ul li::before{
+    content: "\2022";  /* \2022 is the CSS Code/unicode for a bullet */
+    color: #ff6a00;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+
+/* portfolio section styling */
+.portfolio{
+    position: relative;
+    background-image: linear-gradient(#2b2b2b,black);
+    color: #d1d1d1;
+}
+.portfolio a{
+    position: absolute;
+    top: -100px;
+}
+.portfolio .video{
+    text-align: center;
+}
+.portfolio video{
+    border: 2px solid #ff6a00;
+}
+.portfolio .photoshop{
+    text-align: center;
+}
+.portfolio .photoshop img{
+    border: 2px solid #ff6a00;
+    border-radius: 4px;
+    display: inline-block;
+    width: 200px;
+    height: 220px;
+    filter: brightness(50%);
+}
+.portfolio .photoshop img:hover{
+    filter: brightness(100%);
+}
+
+/* footer section styling */
+footer{
+    background: black;
+    padding: 2px 5px;
+    color: white;
+    text-align: center;
+    border-top:  2px solid #ff6a00;
+    display: inline-block;
+    width: 100%;
+}
+footer p{
+    color: white;
+}
+footer span{
+    color: #ff6a00;
+}
