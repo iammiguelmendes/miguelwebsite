@@ -178,7 +178,7 @@ section .title{
     position: absolute;
     top: -100px;
 }
-.knowledge .knowledge-content p {
+.knowledge .knowledge-content p{
     text-align: center;
     font-weight: bold;
 }
@@ -223,6 +223,7 @@ section .title{
     width: 200px;
     height: 220px;
     filter: brightness(50%);
+    margin-bottom: 20px;
 }
 .portfolio .photoshop img:hover{
     filter: brightness(100%);
@@ -237,9 +238,6 @@ footer{
     border-top:  2px solid #ff6a00;
     display: inline-block;
     width: 100%;
-}
-footer p{
-    color: white;
 }
 footer span{
     color: #ff6a00;
