@@ -212,6 +212,8 @@ section .title{
 }
 .portfolio video{
     border: 2px solid #ff6a00;
+    width: 380px;
+    height: 300px;
 }
 .portfolio .photoshop{
     text-align: center;
@@ -228,7 +230,14 @@ section .title{
 .portfolio .photoshop img:hover{
     filter: brightness(100%);
 }
-
+.portfolio .photoshop video{
+    display: inline-block;
+    filter: brightness(50%);
+    margin-bottom: 20px;
+}
+.portfolio .photoshop video:hover{
+    filter: brightness(100%);
+}
 /* footer section styling */
 footer{
     background: black;
