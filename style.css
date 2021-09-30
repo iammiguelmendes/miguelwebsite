@@ -21,7 +21,16 @@ footer {
 h3 {
     color: white;
 }
+.btn{
+    background-color: #e65400;
+    border:  none;
+    cursor: pointer;
+    font-size: 20px;
+}
 
+.btn:hover{
+background-color: darkorange;
+}
 .max-width{
     max-width: : 1300px;
     padding: 0 80px;
