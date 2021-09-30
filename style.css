@@ -21,6 +21,10 @@ footer {
 h3 {
     color: white;
 }
+
+a{
+    text-decoration: none;
+}
 .btn{
     background-color: #e65400;
     border:  none;
